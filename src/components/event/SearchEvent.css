@@ -1,0 +1,111 @@
+/* Container for the search event */
+.search-event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* Heading for the search section */
+  .search-event-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  /* Search input box */
+  .search-input {
+    width: 80%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus effect for the search input box */
+  .search-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Search button styling */
+  .search-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Hover effect for the search button */
+  .search-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Active effect for the button */
+  .search-button:active {
+    background-color: #003f88;
+    transform: translateY(1px);
+  }
+  
+  /* Loading and error messages */
+  .search-event-container p {
+    font-size: 16px;
+    color: #6c757d;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: #dc3545;
+  }
+  
+  /* Styling for search results */
+  .search-results {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .search-result-item {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .search-result-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .search-result-item p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .search-result-item strong {
+    color: #343a40;
+  }
+  
+  /* Update and Delete buttons within each result item */
+  
+  
+  
+  
+  
+  
